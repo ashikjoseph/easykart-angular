@@ -6,7 +6,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  server_url = 'http://localhost:3000'
+  server_url = 'https://easykart-server-angular.onrender.com'
 
   constructor(private http: HttpClient) {
     this.updateWishlistCount();
